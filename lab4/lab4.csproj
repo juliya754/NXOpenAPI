@@ -30,25 +30,40 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="LineDesignerOpen">
+      <HintPath>..\..\..\Program Files\Siemens\NX 10.0\UGII\managed\LineDesignerOpen.dll</HintPath>
+    </Reference>
+    <Reference Include="ManagedLoader">
+      <HintPath>..\..\..\Program Files\Siemens\NX 10.0\UGII\managed\ManagedLoader.dll</HintPath>
+    </Reference>
+    <Reference Include="MiniSnap">
+      <HintPath>..\..\..\Program Files\Siemens\NX 10.0\UGII\managed\MiniSnap.dll</HintPath>
+    </Reference>
     <Reference Include="NXOpen, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>$(UGII_ROOT_DIR)\managed\NXOpen.dll</HintPath>
+      <HintPath>..\..\..\Program Files\Siemens\NX 10.0\UGII\managed\NXOpen.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="NXOpen.UF, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>$(UGII_ROOT_DIR)\managed\NXOpen.UF.dll</HintPath>
+      <HintPath>..\..\..\Program Files\Siemens\NX 10.0\UGII\managed\NXOpen.UF.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="NXOpen.Utilities, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>$(UGII_ROOT_DIR)\managed\NXOpen.Utilities.dll</HintPath>
+      <HintPath>..\..\..\Program Files\Siemens\NX 10.0\UGII\managed\NXOpen.Utilities.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="NXOpenUI, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>$(UGII_ROOT_DIR)\managed\NXOpenUI.dll</HintPath>
+      <HintPath>..\..\..\Program Files\Siemens\NX 10.0\UGII\managed\NXOpenUI.dll</HintPath>
       <Private>False</Private>
+    </Reference>
+    <Reference Include="pskernel_net">
+      <HintPath>..\..\..\Program Files\Siemens\NX 10.0\UGII\managed\pskernel_net.dll</HintPath>
+    </Reference>
+    <Reference Include="Snap">
+      <HintPath>..\..\..\Program Files\Siemens\NX 10.0\UGII\managed\Snap.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
