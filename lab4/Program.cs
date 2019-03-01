@@ -43,6 +43,9 @@ public class Program
 
             //TODO: Add your application code here 
 
+            double[] direction4 = { 0.0, 0.0, 1.0 };
+
+
             theProgram.Dispose();
         }
         catch (NXOpen.NXException ex)
